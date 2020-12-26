@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 150%;
+  max-height: 20%;
 }
 
 @media (max-width: 992px) {
