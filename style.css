@@ -78,9 +78,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo {
   overflow: hidden;
-  padding: 16px 20px 1px 20px;
+  padding: 10px 20px 10px 20px;
   background: #ffff;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 #header .logo img {
   padding: 0;
