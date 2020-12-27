@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: all 0.5s;
+  transition: all 1s;
   z-index: 997;
   transition: all 0.5s;
   top: 20px;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #36343a;
   padding: 10px 15px;
-  transition: 0.3s;
+  transition: 0.8s;
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
@@ -137,15 +137,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .get-started a {
-  background: #0000;
-  color: #FFFFFF;
+  background: #fff;
+  color: #000000;
   border-radius: 50px;
   margin: 0 15px;
   padding: 10px 25px;
 }
 
 .nav-menu .get-started a:hover {
-  background: #fff;
+  background: #635E5E;
   color: #000000;
 }
 
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 0;
   background: none;
   font-size: 24px;
-  transition: all 0.4s;
+  transition: all 0.8s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
