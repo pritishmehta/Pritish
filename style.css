@@ -680,6 +680,62 @@ section {
     margin-top: 30px;
   }
 }
+/*-----------------------------------------
+#form
+-------------------------------------*/
+#heading {
+  padding-top: 7%;
+  text-align: center;
+}
+
+#maindiv {
+  padding-top: 2%;
+  text-align: center;
+}
+
+#namediv{
+  padding-left: 2.99%;
+  padding-bottom: 1%;
+}
+input {
+ display: inline-flex;
+}
+#lastname
+{
+  padding-left: 3%;
+  text-align: right;
+  display: inline-block;
+}
+
+#emaildiv{
+
+  padding-bottom: 1%;
+  padding-left: 35.6%;
+  text-align: justify;
+}
+
+#countrycodediv{
+
+  padding-bottom: 1%;
+  padding-left: 35.6%;
+  text-align: justify;  
+}
+
+
+#Contact{
+
+  padding-left: 3%;
+  text-align: right;
+  display: inline-block;
+}
+
+#descdiv{
+
+  padding-bottom: 1%;
+  padding-left: 35.6%;
+  text-align: justify; 
+}
+
 
 /*--------------------------------------------------------------
 # Footer
