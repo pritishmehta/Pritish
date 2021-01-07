@@ -88,9 +88,13 @@
     </div>
     </div>
     <input type="submit" value="Send">
-      <button type="button" onclick="alert('Hello World!')">Clear All</button>
+      <button type="button" id="clrbtn" name="clrbtn">Clear All</button>
 </form>
-
+<script>
+$('input').keyup(function () {
+  if ($.trim(this.value).length > 0) $('#clrbtn').show()
+  else $('#clrbtn').hide()
+});</script>
 <!-- ======= Footer ======= -->
 <footer id="footer" style="background-color: black;">
 
