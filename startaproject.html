@@ -29,12 +29,10 @@
 <body>
 
      <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center" style="background-color: black;">
+  <header id="header" class="fixed-top d-flex align-items-center" style="background-color: black; margin-top: 0px;" >
     <div class="container">
       <div class="header-container d-flex align-items-center">
         <div class="logo mr-auto">
-         <!--<a href="index.html"><img src="D:\Personal Website\Pritish Mehta\Pritish\PM.png" alt=""></a>-->
-          <!-- Uncomment below if you prefer to use an image logo -->
           <a href="index.html"><img src="PM.png" alt="" class="img-fluid"></a>
         </div>
 
@@ -53,45 +51,44 @@
 
 <!--form begin-->
     
-    <form action="https://wikipedia.com" action="get">
+<div class="container">
+    <form action="mailto:aditiharia@gmail.com" method="post" enctype="text/plain" >
     <h1 id="heading" >Details</h1>
     <!--Name Details-->
-    <div id= "maindiv" >
-    <div id= "namediv" >
+    
+    <div class="form-group">
         <label for="FirstName">First Name: </LABEL>
-        <input id="FirstName" name="FirstName" type="text"placeholder="John" required>
+        <input id="FirstName" class="form-control" name="FirstName" type="text"placeholder="John" required>
         <label for="LastName" id="lastname">Last Name: </label>
-        <input id="LastName" type="text" name="LastName" placeholder="Smith" required>
+        <input id="LastName"  class="form-control" type="text" name="LastName" placeholder="Smith" required>
     </div>
 
     <!--Contact Details-->
 
-    <div id="emaildiv">
+    <div class="form-group">
         <label for="Email">Email:</label>
-        <input id="Email" name="Email" type="Email" placeholder="abc@mail.com" required>
+        <input id="Email" name="Email" class="form-control" type="Email" placeholder="abc@mail.com" required>
     </div>
     
-    <div id="countrycodediv">
-        <label id="CountryCode">
+    <div class="form-group">
+        <label id="CountryCode" style="padding-right: 20px;">
             Country code:
-		    <input id="country code" name="country code" type="number" placeholder="xx" min="1" max="2" title="Please enter two digit country code">
+		    <input id="country code" name="country code" class="form-control" type="number" placeholder="xx" min="1" max="300" title="Please enter two digit country code" >
         </label>
         <label id="Contact">
-            Contact:
-		    <input id="contact no." name="contact no."  type="number" placeholder="contact number" max="10" title="Maximum digits used can be 10">
-        </label>
+            Contact: 
+		    <input id="contact no." name="contact no." class="form-control" type="number" placeholder="contact number" max="10000000000" title="Maximum digits used can be 10">
+      </label>
     </div>
 
     <!-- Description of the project -->
-    <div id="descdiv">
-        <label for="Description" id="desc" >Describe your Requirement:
-            <textarea name="comment" id="desc" placeholder="Requirements" required></textarea>
-        </label> 
-        
+    <div class="form-group">
+      <label for="text">Description:</label>
+      <textarea class="form-control" type="text" rows="5" name="Desc" required></textarea>
     </div>
     </div>
-    <input type="submit">
-    <button type="button" onclick="alert('Hello World!')">Clear All</button>
+    <input type="submit" value="Send">
+      <button type="button" onclick="alert('Hello World!')">Clear All</button>
 </form>
 
 <!-- ======= Footer ======= -->
