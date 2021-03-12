@@ -52,49 +52,46 @@
 <!--form begin-->
     
 <div class="container">
-    <form action="mailto:aditiharia@gmail.com" method="post" enctype="text/plain" >
+    <form action="sendmail.php" method="post" enctype="text/plain" >
     <h1 id="heading" >Details</h1>
     <!--Name Details-->
     
     <div class="form-group">
-        <label for="FirstName">First Name: </LABEL>
-        <input id="FirstName" class="form-control" name="FirstName" type="text"placeholder="John" required>
-        <label for="LastName" id="lastname">Last Name: </label>
-        <input id="LastName"  class="form-control" type="text" name="LastName" placeholder="Smith" required>
+        <label for="FirstName" >First Name: </LABEL>
+        <input id="FirstName" class="form-control" name="first_name" type="text"placeholder="John" required>
+        <label for="LastName" id="lastname" >Last Name: </label>
+        <input id="LastName"  class="form-control" type="text" name="last_name" placeholder="Smith" required>
     </div>
 
     <!--Contact Details-->
 
     <div class="form-group">
         <label for="Email">Email:</label>
-        <input id="Email" name="Email" class="form-control" type="Email" placeholder="abc@mail.com" required>
+        <input id="Email" name="email" class="form-control" type="Email" placeholder="abc@mail.com" required>
     </div>
     
     <div class="form-group">
         <label id="CountryCode" style="padding-right: 20px;">
             Country code:
-		    <input id="country code" name="country code" class="form-control" type="number" placeholder="xx" min="1" max="300" title="Please enter two digit country code" >
+		    <input id="country code" name="country_code" class="form-control" type="number" placeholder="xx" min="1" max="300" title="Please enter two digit country code" >
         </label>
         <label id="Contact">
             Contact: 
-		    <input id="contact no." name="contact no." class="form-control" type="number" placeholder="contact number" max="10000000000" title="Maximum digits used can be 10">
+		    <input id="contact no." name="contact_no" class="form-control" type="number" placeholder="contact number" max="10000000000" title="Maximum digits used can be 10">
       </label>
     </div>
 
     <!-- Description of the project -->
     <div class="form-group">
       <label for="text">Description:</label>
-      <textarea class="form-control" type="text" rows="5" name="Desc" required></textarea>
+      <textarea class="form-control" type="text" rows="5" name="desc" required></textarea>
     </div>
+    <button class="button">Submit</button>
+    <button class="button" type="reset" value="reset">Clear All</button>
+
     </div>
-    <input type="submit" value="Send">
-      <button type="button" id="clrbtn" name="clrbtn">Clear All</button>
 </form>
-<script>
-$('input').keyup(function () {
-  if ($.trim(this.value).length > 0) $('#clrbtn').show()
-  else $('#clrbtn').hide()
-});</script>
+
 <!-- ======= Footer ======= -->
 <footer id="footer" style="background-color: black;">
 

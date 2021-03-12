@@ -688,57 +688,27 @@ section {
 }
 
 
-/*
-#maindiv {
-  padding-top: 2%;
-  padding-left: 2%;
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
-}
-
-#namediv{
-  padding-left: 14.5%;
-  padding-bottom: 1%;
-}
-input {
- display: inline-flex0pppp8;
-}
-
-#lastname
-{
-  padding-left: 3%;
-  text-align: right;
+  text-decoration: none;
   display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+  transition-duration: 0.4s;
 }
-
-#emaildiv{
-
-  padding-bottom: 1%;
-  padding-left: 35.6%;
-  text-align: justify;
+.button:hover {
+  background-color: black;
+  color: white;
 }
-
-#countrycodediv{
-
-  padding-bottom: 1%;
-  padding-left: 35.6%;
-  text-align: justify;  
-}
-
-
-#Contact{
-
-  padding-left: 3%;
-  text-align: right;
-  display: inline-block;
-}
-
-#descdiv{
-
-  padding-bottom: 1%;
-  padding-left: 35.6%;
-  text-align: justify; 
-}
-*/
 
 /*--------------------------------------------------------------
 # Footer
