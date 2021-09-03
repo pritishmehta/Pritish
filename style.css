@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: black;
 }
 
 .mobile-nav {
@@ -213,17 +213,12 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009970;
-  text-decoration: none;
-}
-
 .mobile-nav .get-started {
   text-align: center;
 }
 
 .mobile-nav .get-started a {
-  background: #009970;
+  background: black;
   color: #fff;
   border-radius: 50px;
   margin: 0 15px;
@@ -232,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #00c28e;
+  background: black;
   color: #fff;
 }
 
@@ -304,27 +299,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
-
-#hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#hero .btn-get-started:hover {
-  background: #009970;
-  border: 2px solid #009970;
-}
-
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -343,43 +317,15 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
 }
-
+*/
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 70px 0;
   overflow: hidden;
 }
-
-.section-bg {
-  background-color: #0000;
-}
-
-.section-title {
-  padding-bottom: 30px;
-}
-
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  position: relative;
-}
-
-.section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #009970;
-  bottom: 0;
-  left: 0;
-}
-
+  
 .section-title p {
   margin-bottom: 0;
 }
@@ -400,29 +346,6 @@ section {
   line-height: 32px;
   font-size: 24px;
 }
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-}
-
-.about .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: #009970;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
 .photo {
   border-radius: 70px; 
   margin-left : 50%
@@ -440,8 +363,8 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
-  padding: 30px;
-  background: #009970;
+  padding-top: 30px;
+  background: black;
   border-radius: 4px;
   color: #fff;
 }
@@ -470,7 +393,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #009970;
+  color: black;
   background: #fff;
 }
 
@@ -486,7 +409,7 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #009970;
+  color: black;
   margin-bottom: 30px;
 }
 
@@ -765,7 +688,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #00c28e;
+  color: white;
   font-size: 18px;
   line-height: 1;
 }
@@ -789,7 +712,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #009970;
+  color: white;
 }
 
 #footer .credits {
@@ -802,7 +725,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #00000;
+  color: black;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
