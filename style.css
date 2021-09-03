@@ -3,7 +3,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: white;
+  background-color: black;
 }
 
 a {

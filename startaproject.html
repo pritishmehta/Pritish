@@ -21,7 +21,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="style.css" rel="stylesheet">
+  <link href="form.css" rel="stylesheet">
 
 </head>
 
@@ -38,61 +38,55 @@
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">My Work</a></li>
-            <li><a href="#portfolio">End</a></li>
-            <li class="get-started"><a href="startaproject.html">Get in Touch</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">My Work</a></li>
+            <li><a href="index.html">End</a></li>
+            <li class="get-started active"><a href="startaproject.html">Get in Touch</a></li>
           </ul>
         </nav><!-- .nav-menu -->
       </div><!-- End Header Container -->
     </div>
   </header><!-- End Header -->
 
-<!--form begin-->
-    
-<div class="container">
-    <form action="sendmail.php" method="post" enctype="text/plain" >
-    <h1 id="heading" >Details</h1>
-    <!--Name Details-->
-    
-    <div class="form-group">
-        <label for="FirstName" >First Name: </LABEL>
-        <input id="FirstName" class="form-control" name="first_name" type="text"placeholder="John" required>
-        <label for="LastName" id="lastname" >Last Name: </label>
-        <input id="LastName"  class="form-control" type="text" name="last_name" placeholder="Smith" required>
+  <div class="container">
+    <div class="row" >
     </div>
-
-    <!--Contact Details-->
-
-    <div class="form-group">
-        <label for="Email">Email:</label>
-        <input id="Email" name="email" class="form-control" type="Email" placeholder="abc@mail.com" required>
+    <div class="row">
+        
     </div>
-    
-    <div class="form-group">
-        <label id="CountryCode" style="padding-right: 20px;">
-            Country code:
-		    <input id="country code" name="country_code" class="form-control" type="number" placeholder="xx" min="1" max="300" title="Please enter two digit country code" >
-        </label>
-        <label id="Contact">
-            Contact: 
-		    <input id="contact no." name="contact_no" class="form-control" type="number" placeholder="contact number" max="10000000000" title="Maximum digits used can be 10">
-      </label>
+    <div class="row input-container">
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Name</label> 
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="styled-input">
+            <input type="text" required />
+            <label>Email</label> 
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-6">
+          <div class="styled-input" style="float:right;">
+            <input type="text" required />
+            <label>Phone Number</label> 
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="btn-lrg submit-btn">Send Message</div>
+        </div>
     </div>
-
-    <!-- Description of the project -->
-    <div class="form-group">
-      <label for="text">Description:</label>
-      <textarea class="form-control" type="text" rows="5" name="desc" required></textarea>
-    </div>
-    <p><button class="button" style="vertical-align:middle"><span>Submit Enquiry </span></button></p>
-    <button class="button" type="reset" value="reset">Clear All</button>
-
-    </div>
-</form>
-
-<!-- ======= Footer ======= -->
+  </div>
+  
+    <!-- ======= Footer ======= -->
 <footer id="footer" style="background-color: black;">
 
     <div class="footer-top"style="background-color: black;">
